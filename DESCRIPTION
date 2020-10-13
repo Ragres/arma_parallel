@@ -1,0 +1,16 @@
+Package: arimaParallel
+Title: Run an arima cycle in parallel
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Victor",
+           family = "Alanis",
+           role = c("aut","cre"),
+           email = "victor_alanis@live.com")
+Description: This package executes an arima cycle (looking for the best order in AR or MA models) in parallel to shorten computational time.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: parallel,snow
